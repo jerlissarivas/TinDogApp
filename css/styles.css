@@ -1,38 +1,48 @@
 body {
   font-family: "Montserrat", sans-serif;
+  text-align: center;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 900;
+}
+
+p {
+  color: #8f8f8f;
 }
 
 #title {
   background-color: #ff4c68;
   color: #fff;
+  text-align: left;
 }
 
-.container-fluid {
+#title .container-fluid {
   padding: 3% 15% 7%;
 }
 
-h1 {
+.container-fluid {
+  padding: 7% 15%;
+}
+
+/* Headings */
+
+.big-heading {
   font-family: "Montserrat", sans-serif;
-  font-size: 3.5rem;
   font-weight: 900;
+  font-size: 3.5rem;
   line-height: 1.5;
 }
 
-h2 {
-  font-family: "Montserrat", sans-serif;
+.section-heading {
   font-size: 1.7rem;
-  font-weight: 600;
   line-height: 1.5;
-}
-
-h3 {
-  font-family: "Montserrat", sans-serif;
-  font-size: 1.3rem;
-  font-weight: 600;
-}
-
-p {
-  color: #8f8f8f;
 }
 
 /* Navbar */
@@ -73,14 +83,16 @@ p {
 /* Features section */
 
 #features {
-  padding: 7% 15%;
   background-color: #fff;
   position: relative;
 }
 
 .feature-box {
-  text-align: center;
   padding: 5%;
+}
+
+.feature-title {
+  font-size: 1.3rem;
 }
 
 .icon {
@@ -97,7 +109,6 @@ p {
 #testimonials {
   background-color: #ef8172;
   color: #fff;
-  text-align: center;
 }
 
 .testimonial-image {
@@ -106,15 +117,15 @@ p {
   margin: 20px;
 }
 
-.carousel-item {
-  padding: 7% 15%;
+.testimonial-text {
+  font-size: 1.7rem;
+  line-height: 1.5;
 }
 
 /* Press section */
 
 #press {
   background-color: #ef8172;
-  text-align: center;
   padding-bottom: 3%;
 }
 
@@ -127,11 +138,15 @@ p {
 
 #pricing {
   padding: 100px;
-  text-align: center;
 }
 
 .pricing-column {
   padding: 3% 2%;
+}
+
+.price-text {
+  font-size: 1.7rem;
+  line-height: 1.5;
 }
 
 /* Call to Action Section */
@@ -139,23 +154,12 @@ p {
 #cta {
   background-color: #ff4c68;
   color: #fff;
-  padding: 7% 15%;
-  text-align: center;
-}
-
-.cta-heading {
-  font-family: "Montserrat", sans-serif;
-  font-size: 3.5rem;
-  font-weight: 900;
-  line-height: 1.5;
 }
 
 /* Footer */
 
 #footer {
   background-color: #fff;
-  padding: 7% 15%;
-  text-align: center;
 }
 
 .footer-icon {
