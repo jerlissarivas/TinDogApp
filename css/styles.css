@@ -31,7 +31,7 @@ p {
 /* Sections */
 
 .colored-section {
-  background-color: #ff4c68;
+  background-color: #e6867a;
   color: #fff;
 }
 
@@ -103,18 +103,18 @@ p {
 }
 
 .icon {
-  color: #ef8172;
+  color: #f8b195;
   margin-bottom: 1rem;
 }
 
 .icon:hover {
-  color: #ff4c68;
+  color: #e6867a;
 }
 
 /* Testimonial section */
 
 #testimonials {
-  background-color: #ef8172;
+  background-color: #f8b195;
 }
 
 .testimonial-image {
@@ -131,7 +131,7 @@ p {
 /* Press section */
 
 #press {
-  background-color: #ef8172;
+  background-color: #f8b195;
   padding-bottom: 3%;
 }
 
